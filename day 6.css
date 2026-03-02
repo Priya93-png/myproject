@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .position_pro{
+            height: 300px;
+            width:300px;
+            background-color: aqua;
+            position: static;
+            top:0px;
+            left:0px;
+            display: inline-block;
+        }
+        img{
+           width: 350px
+        }
+        .fixed_po{
+            height: 100px;
+            width:100px;
+            background-color: rgb(9, 255, 0);
+            position: fixed;
+            top:100px;
+            right:150px;       
+        }
+        .position_sti{
+            height: 100px;
+            width:100px;
+            background-color: rgb(9, 255, 0);
+            position: sticky;
+            top:150px;
+            left:150px;
+        }
+        .position_rel{
+            height: 100px;
+            width:100px;
+            background-color: rgb(255, 0, 0);
+            position: relative;
+            top:50px;
+            left:100px;
+          
+        }
+        .absolute_rel{
+            height: 100px;
+            width:100px;
+            background-color: rgb(208, 255, 0);
+            position:absolute;
+            right:100px;
+            top:0px;
+            
+        }
+        .parent_div{
+            height: 300px;
+            width:300px;
+            background-color: rgb(19, 4, 64);
+ 
+            
+        }
+        .gr_parent_div{
+            height: 600px;
+            width:600px;
+            background-color: rgb(0, 255, 115);
+ 
+            
+        }
+
+    </style>
+</head>
+<body>
+    <img src="msd1.jpg" />
+    <div class="position_pro">
+
+    </div>
+     
+     <p class="first_para">   started by students of BITS Pilani in 2005. ing with 100+ Corporate, Government and Philanthropic partners.</p>  
+    <div class="position_sti">
+          <h4>sticky position</h4>
+
+    </div>
+     <h1>heading1</h1>
+      <div class="fixed_po">
+             <h4>fixed position</h4>
+      </div>   
+      
+       <img src="msd1.jpg" />
+       <div class="position_rel">
+        <h4>relative position</h4>
+
+    </div>
+     <p class="first_para">   started by students of BITS Pilani in 2005. ing with 100+ Corporate, Government and Philanthropic partners.</p>  
+    <div class="gr_parent_div">
+        <div class="parent_div">
+
+        
+            <div class="absolute_rel">
+                <h4> absolute position</h4>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

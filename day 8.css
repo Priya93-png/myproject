@@ -1,0 +1,19 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="box"> BOX-1 </div> <div class="box"> BOX-2 </div> </body> </html> .box{ border: 2px black solid; background-color: blueviolet; margin: 10px; display: block; /default property/ }
+
+2. INLINE 
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="box"> BOX-1 </div> <div class="box"> BOX-2 </div> </body> </html> .box{ border: 2px black solid; background-color: blueviolet; margin: 10px; display: inline; }
+
+3. INLINE-BLOCK 
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="box"> BOX-1 </div> <div class="box"> BOX-2 </div> </body> </html> .box{ border: 2px black solid; background-color: blueviolet; margin: 10px; display: inline-block; width: 150px; /can set width or height/ }
+
+4. Flex box example
+ 
+ <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="container"> <div class="box">1</div> <div class="box">2</div> <div class="box">3</div> </div> </body> </html> .container{ display: flex; height: 200px; background-color: burlywood; justify-content: center; align-items: center; } .box{ width: 80px; height: 80px; background-color:chocolate; margin: 10px; }
+
+5. Grid
+ 
+ <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="container"> <div>1</div> <div>2</div> <div>3</div> <div>4</div> </div> </body> </html> .container{ display: grid; grid-template-columns: repeat(4, 100px);/same size/ gap: 10px; } .container div{ background-color: blueviolet; padding: 20px; }
+
+6. Text Properties
+ 
+ <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Day-8</title> <link rel="stylesheet" href="style.css"> </head> <body> <P class="para">CSS- Cascading Style Sheet<br> HTML - Hyper Text Markup Language</P> </body> </html> .para{ text-align: center; /horizontal movements/ text-transform:none;/case changing/ text-decoration: underline;/works only for none and underline/ text-decoration-style:double;/works for other styles/ line-height:25px ;/space between lines/ letter-spacing: 10px;/space between letters/ word-spacing: 30px;/space between words/ color: rgb(9, 242, 250);/text color/ font-size: 15px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }

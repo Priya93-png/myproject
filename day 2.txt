@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  
+  </head>
+  <body>
+  <CENTER>  
+      <h1>REGISTRATION FORM</h1>
+      <form actin="revisin.html">
+            <lable>Name:</lable>
+           <input type="text"required> <!--Name-->
+                <br><br>
+            <lable>Age:</lable>
+           <input type="number"> <!--Age-->
+              <br><br>
+            <lable >Date of Birth:</lable> 
+            <input type="date"> <!--Date of Birth-->
+              <br><br>
+              <button
+          type="submit">Submit</button>
+              <br><br>
+        </form>
+        
+        <!--Anchor Tag-->
+        <a href="https://www.codecadwmy.com/learn/learn-html" 
+        target="_blank">Html page</a>
+          <br>
+          <a href="C:\Users\acer\Pictuures\
+          Screenshots\Screenshot2026-01-24
+          164127.png"target="_blank">Srn</a>
+          
+          
+          
+          </CENTER>
+          </body>
+          </html>

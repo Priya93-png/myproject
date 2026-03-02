@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <h2>Table</h2>
+    </title>
+    </head>
+    <body>
+      <a href="https://www.w3schools.com/html/html_elements.asp"
+      target="_black">Next Page</a>
+      
+        <!---Ordered List-->
+        
+        <ol type="a">
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Kivi</li>
+        </ol>
+        <br><br>
+        <ol start="11">
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Kivi</li>
+        </ol>
+        <br><br>
+        
+        <!--Unordered List-->
+        <ul>
+          
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Kivi</li>
+          
+        </ul>
+        <br><br>
+        <ul style="list-style-type:
+        square;">
+          
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Kivi</li>
+          
+           </ul><br><br>
+           <!---Description List-->
+           
+           <dl>
+             <dt>Semantic tag</dt>
+             <dd>Tags which contains its own property</dd>
+             
+           </dl>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overflow_visi{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            overflow: visible;
+        }
+        
+        .overflow_auto{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(100, 69, 148);
+            overflow: scroll;
+           
+        }
+        .overflow_hidden{
+            
+            width: 200px;
+            height: 200px;
+            background-color: rgb(100, 69, 148);
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>visible</h1>
+    <p class="overflow_visi">started by students of BITS Pilani in 2005. We work in the areas of Education, Skill Development &amp; Entrepreneurship, Health and Wellbeing, Community Development and Social Leadership. In the past 16 years of journey, we have impacted the lives of 1.5+ million beneficiaries with the support of 300+ full time employees and 1000+ strong volunteer network, through various impact-oriented Flagship Programs &amp; Social Leadership Initiatives benefiting Children, Women, Youth, Persons with Disabilities (PwDs), LGBTQ+ and Farmers from diverse social backgrounds across 15 States of India while partnering with 100+ Corporate, Government and Philanthropic partners.</p>  
+  
+    <h1>scroll</h1>
+    <p class="overflow_auto">started by students of BITS Pilani in 2005. We work in the areas of Education, Skill Development &amp; Entrepreneurship, Health and Wellbeing, Community Development and Social Leadership. In the past 16 years of journey, we have impacted the lives of 1.5+ million beneficiaries with the support of 300+ full time employees and 1000+ strong volunteer network, through various impact-oriented Flagship Programs &amp; Social Leadership Initiatives benefiting Children, Women, Youth, Persons with Disabilities (PwDs), LGBTQ+ and Farmers from diverse social backgrounds across 15 States of India while partnering with 100+ Corporate, Government and Philanthropic partners.</p>  
+  
+    <h1>hidden</h1>
+    <p class="overflow_hidden">started by students of BITS Pilani in 2005. We work in the areas of Education, Skill Development &amp; Entrepreneurship, Health and Wellbeing, Community Development and Social Leadership. In the past 16 years of journey, we have impacted the lives of 1.5+ million beneficiaries with the support of 300+ full time employees and 1000+ strong volunteer network, through various impact-oriented Flagship Programs &amp; Social Leadership Initiatives benefiting Children, Women, Youth, Persons with Disabilities (PwDs), LGBTQ+ and Farmers from diverse social backgrounds across 15 States of India while partnering with 100+ Corporate, Government and Philanthropic partners.</p>  
+  
+</body>
+</html>
