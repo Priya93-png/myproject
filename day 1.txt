@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width
+    initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+      input{
+        display:block;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <form action="attribute.html"
+    method="post"enctype="multipart/
+    form-data"target="-self">
+          <input type="text"
+          name="fname"value=""placeholder="enter the name"
+          required/>
+          <inputtype="number"
+          name="mobile-number"value=""/>
+          
+          <input type="password"
+          name="pwd"/>
+          
+          <input type="file"
+          name="file-name"/>
+          
+          <input type="email"
+          name="uemail"/>
+          <input type="date"/>
+          
+          <input type="range"
+          name="ramn"min="0"max="10"/>
+          
+          <input type="color"
+          name="fa-color"/>
+          <input type="week"
+          name="c-week"/>
+          
+          <input type="radio"
+          name="gender"value="male"/>
+          <input type="radio"
+          name="gender"value="female"/>
+          <input type="radio"
+          name="gender"value="others"/>
+          
+          <input type=="checkbox"
+          name="books"value="c++"/>
+          <input type="checkbox"
+          name="books"value="java"/>
+          <input type="checkbox"
+          name="books"value+"programming
+          in c"/>
+              <select name="state">
+                <option value="1">
+              Tamilnadu</option>
+                <option value="2">
+                kerala</option>
+                <option value="3">
+                  karnataka</option>
+                  
+              </select>
+              
+              
+              
+              <input type="submit"
+              value="login"/>
+              <input type="reset"
+              value="reset"/>
+              </form>
+          
+          </body>
+          </html>
